@@ -10,13 +10,13 @@ const Home = () => {
     <div className='h-screen '>
       <h1 className='text-lg font-bold text-center '>Claim Order</h1>
       <div className='flex justify-center h-full '>
-        <div className='flex flex-col w-[75%]'>
+        <div className='flex flex-col w-[80%]'>
           <div className='flex justify-between'>
             <div></div>
             <div>No.</div>
           </div>
           <div className='flex justify-between'>
-            <div>Address</div>
+            <div>Address...</div>
             <div>Date: yyyy-mm-dd</div>
           </div>
           <div className='flex flex-col border'>
@@ -110,9 +110,11 @@ const Home = () => {
 
                     <div>
                       Ref No.
+                      <Input/>
                     </div>
                     <div>
                       Track No.
+                      <Input/>
                     </div>
                   </div>
                 </div>
